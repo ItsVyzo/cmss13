@@ -18,7 +18,7 @@
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "ae" = (
 /obj/docking_port/stationary/vehicle_elevator/adminlevel,
 /turf/open/space/basic,
@@ -61,7 +61,7 @@
 "az" = (
 /obj/structure/machinery/vending/cigarette/colony,
 /turf/open/floor/carpet,
-/area/space)
+/area/adminlevel/ert_station)
 "aB" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	dir = 4;
@@ -101,29 +101,12 @@
 	icon_state = "sterile_green"
 	},
 /area/adminlevel/ert_station)
-"aZ" = (
-/obj/structure/surface/table/reinforced,
-/obj/item/tool/kitchen/tray,
-/obj/item/tool/kitchen/knife{
-	pixel_x = 3
-	},
-/obj/item/tool/kitchen/knife/butcher{
-	pixel_x = -8
-	},
-/obj/item/tool/kitchen/rollingpin,
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "bn" = (
 /obj/structure/closet/boxinggloves,
 /turf/open/floor/almayer{
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station)
-"ca" = (
-/turf/open/floor/carpet,
-/area/space)
 "cj" = (
 /obj/structure/surface/table/almayer,
 /turf/open/floor/almayer,
@@ -146,16 +129,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station)
-"cE" = (
-/obj/structure/machinery/chem_dispenser/soda/beer{
-	density = 0;
-	pixel_y = 10
-	},
-/obj/structure/surface/table/reinforced,
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "cK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -189,7 +162,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "dr" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_22"
@@ -237,6 +210,12 @@
 	},
 /turf/open/space/transit/east/shuttlespace_ew7,
 /area/space)
+"eb" = (
+/turf/open/floor/almayer{
+	dir = 9;
+	icon_state = "red"
+	},
+/area/adminlevel/ert_station)
 "eg" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/recharger,
@@ -327,6 +306,13 @@
 	dir = 4
 	},
 /area/centcom/living)
+"fd" = (
+/obj/structure/machinery/medical_pod/bodyscanner,
+/turf/open/floor/almayer{
+	dir = 7;
+	icon_state = "sterile_green_side"
+	},
+/area/adminlevel/ert_station)
 "fk" = (
 /obj/structure/barricade/handrail{
 	dir = 4
@@ -392,7 +378,7 @@
 	dir = 1;
 	icon_state = "sterile_green_side"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "fL" = (
 /turf/open/floor/carpet/edge{
 	dir = 10
@@ -495,7 +481,7 @@
 "gG" = (
 /obj/structure/mirror,
 /turf/open/floor/almayer,
-/area/space)
+/area/adminlevel/ert_station)
 "gR" = (
 /turf/open/floor/almayer{
 	dir = 6;
@@ -596,7 +582,7 @@
 "jQ" = (
 /obj/structure/machinery/cm_vending/sorted/boozeomat,
 /turf/open/floor/carpet,
-/area/space)
+/area/adminlevel/ert_station)
 "kn" = (
 /obj/docking_port/stationary/emergency_response/idle_port3,
 /turf/open/floor/plating,
@@ -616,18 +602,12 @@
 	icon_state = "floor"
 	},
 /area/adminlevel/ert_station)
-"kP" = (
-/obj/structure/surface/table/reinforced,
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "ly" = (
 /obj/structure/bed/chair/wood/wings{
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/space)
+/area/adminlevel/ert_station)
 "lB" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -636,6 +616,9 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
+/area/adminlevel/ert_station)
+"lJ" = (
+/turf/open/space/basic,
 /area/adminlevel/ert_station)
 "lW" = (
 /obj/effect/decal/warning_stripes{
@@ -666,16 +649,19 @@
 	icon_state = "test_floor4"
 	},
 /area/adminlevel/ert_station)
+"ng" = (
+/obj/structure/transmitter/hidden{
+	dir = 4;
+	name = "Station Telephone";
+	phone_id = "Unknown Signal";
+	pixel_x = -14
+	},
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
 "nj" = (
 /obj/structure/machinery/cm_vending/clothing/antag,
 /turf/open/floor/almayer,
 /area/adminlevel/ert_station)
-"nl" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/almayer{
-	icon_state = "floor"
-	},
-/area/space)
 "no" = (
 /turf/open/floor/almayer{
 	icon_state = "greencorner"
@@ -746,11 +732,12 @@
 	},
 /area/adminlevel/ert_station)
 "oI" = (
+/obj/structure/machinery/medical_pod/sleeper,
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "sterile_green_corner"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "oQ" = (
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
@@ -828,7 +815,7 @@
 "pC" = (
 /obj/structure/bed/stool,
 /turf/open/floor/carpet,
-/area/space)
+/area/adminlevel/ert_station)
 "pD" = (
 /obj/structure/machinery/cm_vending/sorted/medical/chemistry/no_access{
 	req_access = null
@@ -842,7 +829,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/space)
+/area/adminlevel/ert_station)
 "pP" = (
 /obj/item/newspaper,
 /turf/open/floor/carpet{
@@ -864,7 +851,7 @@
 	dir = 8;
 	icon_state = "sterile_green_side"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "qi" = (
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/almayer{
@@ -916,15 +903,19 @@
 	icon_state = "sterile_green_side"
 	},
 /area/adminlevel/ert_station)
-"rp" = (
-/obj/structure/surface/table/reinforced,
-/obj/structure/machinery/microwave{
-	pixel_y = 10
+"rh" = (
+/obj/structure/machinery/door_control{
+	pixel_x = 26;
+	pixel_y = 8;
+	id = "RMC_brig_2"
 	},
-/turf/open/floor/prison{
-	icon_state = "kitchen"
+/obj/structure/machinery/door_control{
+	pixel_x = 26;
+	pixel_y = -6;
+	id = "RMC_brig_1"
 	},
-/area/space)
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
 "rx" = (
 /obj/structure/machinery/cm_vending/gear/antag,
 /turf/open/floor/almayer,
@@ -1015,15 +1006,12 @@
 	icon_state = "sterile_green"
 	},
 /area/adminlevel/ert_station)
-"tI" = (
-/obj/structure/surface/table/reinforced,
-/obj/structure/machinery/processor{
-	pixel_y = 10
+"tN" = (
+/turf/open/floor/almayer{
+	dir = 7;
+	icon_state = "sterile_green_side"
 	},
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
+/area/adminlevel/ert_station)
 "tP" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
@@ -1186,6 +1174,12 @@
 	icon_state = "plating"
 	},
 /area/adminlevel/ert_station)
+"vF" = (
+/obj/structure/window/framed/colony{
+	indestructible = 1
+	},
+/turf/open/floor/plating,
+/area/adminlevel/ert_station)
 "vH" = (
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
@@ -1232,15 +1226,6 @@
 	icon_state = "test_floor4"
 	},
 /area/adminlevel/ert_station)
-"vT" = (
-/obj/structure/machinery/gibber{
-	pixel_y = 10
-	},
-/obj/structure/surface/table/reinforced,
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "wj" = (
 /turf/open/floor/tdome{
 	dir = 1;
@@ -1289,7 +1274,7 @@
 "wM" = (
 /obj/structure/machinery/cm_vending/sorted/walkman,
 /turf/open/floor/carpet,
-/area/space)
+/area/adminlevel/ert_station)
 "wW" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/adminlevel/ert_station)
@@ -1308,7 +1293,7 @@
 "xu" = (
 /obj/structure/machinery/vending/dinnerware,
 /turf/open/floor/carpet,
-/area/space)
+/area/adminlevel/ert_station)
 "xw" = (
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
@@ -1546,7 +1531,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "BO" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -1589,6 +1574,13 @@
 /obj/structure/sign/poster/ad,
 /turf/closed/wall/r_wall/unmeltable,
 /area/adminlevel/ert_station)
+"Cl" = (
+/obj/structure/machinery/sleep_console,
+/turf/open/floor/almayer{
+	dir = 7;
+	icon_state = "sterile_green_side"
+	},
+/area/adminlevel/ert_station)
 "Cm" = (
 /obj/structure/machinery/cm_vending/sorted/walkman,
 /obj/effect/decal/cleanable/dirt,
@@ -1597,6 +1589,10 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station/shuttle_dispatch)
+"Cr" = (
+/obj/structure/window/framed/almayer/hull,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station)
 "CI" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/bedsheetbin{
@@ -1649,7 +1645,7 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "Dq" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1699,11 +1695,13 @@
 	},
 /area/adminlevel/ert_station)
 "DQ" = (
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "sterile_green_side"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "DV" = (
 /turf/open/floor/tdome{
 	icon_state = "tcomms"
@@ -1773,11 +1771,6 @@
 	},
 /turf/open/floor/plating/almayer,
 /area/adminlevel/ert_station/shuttle_dispatch)
-"Es" = (
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "Ez" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -1792,7 +1785,7 @@
 	dir = 1;
 	icon_state = "sterile_green_corner"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "EG" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -1879,8 +1872,15 @@
 	},
 /area/adminlevel/ert_station)
 "Fz" = (
-/turf/open/floor/almayer,
-/area/space)
+/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced{
+	dir = 2;
+	name = "\improper Brig Cell"
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station)
 "FB" = (
 /turf/open/floor/plating,
 /area/adminlevel/ert_station)
@@ -1907,7 +1907,7 @@
 /turf/open/floor/almayer{
 	icon_state = "sterile_green_corner"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "FT" = (
 /turf/open/floor/almayer{
 	icon_state = "silver"
@@ -2060,12 +2060,6 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station)
-"HS" = (
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "sterile_green_side"
-	},
-/area/space)
 "HW" = (
 /obj/docking_port/stationary/emergency_response/idle_port4,
 /turf/open/floor/plating/almayer,
@@ -2081,6 +2075,13 @@
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "silver"
+	},
+/area/adminlevel/ert_station)
+"Ic" = (
+/obj/structure/bed/alien,
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "red"
 	},
 /area/adminlevel/ert_station)
 "Ik" = (
@@ -2108,11 +2109,12 @@
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station)
 "Ir" = (
+/obj/structure/machinery/body_scanconsole,
 /turf/open/floor/almayer{
 	dir = 7;
 	icon_state = "sterile_green_side"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "Is" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -2138,12 +2140,6 @@
 	},
 /turf/open/floor/carpet,
 /area/adminlevel/ert_station)
-"II" = (
-/obj/structure/closet/secure_closet/freezer/fridge/groceries,
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "IO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -2226,7 +2222,7 @@
 	dir = 8;
 	icon_state = "sterile_green_side"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "KM" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -2322,7 +2318,7 @@
 	dir = 1;
 	icon_state = "sterile_green_side"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "LR" = (
 /obj/structure/machinery/optable,
 /obj/item/tank/anesthetic,
@@ -2361,17 +2357,15 @@
 	icon_state = "redfull"
 	},
 /area/adminlevel/ert_station)
+"Md" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/faxmachine,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
 "Mk" = (
 /obj/structure/sign/safety,
 /turf/closed/wall,
 /area/adminlevel/ert_station)
-"Mp" = (
-/obj/structure/closet/secure_closet/freezer/fridge/full,
-/obj/item/reagent_container/food/condiment/enzyme,
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "Ms" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -2404,11 +2398,6 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station)
-"MI" = (
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile"
-	},
-/area/space)
 "ML" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2599,7 +2588,7 @@
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "OT" = (
 /turf/closed/wall/almayer/outer,
 /area/tdome/tdomeobserve)
@@ -2630,16 +2619,6 @@
 "PE" = (
 /turf/open/floor/engine,
 /area/adminlevel/simulation)
-"PF" = (
-/obj/structure/machinery/chem_dispenser/soda{
-	density = 0;
-	pixel_y = 10
-	},
-/obj/structure/surface/table/reinforced,
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "PJ" = (
 /turf/open/floor/tdome{
 	dir = 1;
@@ -2721,12 +2700,6 @@
 	icon_state = "tcomms"
 	},
 /area/tdome/tdomeobserve)
-"Rg" = (
-/obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/floor/prison{
-	icon_state = "kitchen"
-	},
-/area/space)
 "Rj" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/almayer{
@@ -2784,7 +2757,7 @@
 "Sa" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	dir = 4;
-	id = "RMC_brig_2";
+	id = ssss;
 	name = "shutters"
 	},
 /obj/structure/machinery/door/airlock/almayer/security/glass/reinforced,
@@ -2822,11 +2795,6 @@
 	icon_state = "plating"
 	},
 /area/adminlevel/ert_station)
-"Sm" = (
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/space)
 "St" = (
 /obj/structure/surface/table/reinforced,
 /turf/open/floor/prison{
@@ -2991,9 +2959,6 @@
 	icon_state = "greencorner"
 	},
 /area/adminlevel/ert_station)
-"UA" = (
-/turf/open/floor/plating/plating_catwalk,
-/area/space)
 "UI" = (
 /obj/structure/surface/table/gamblingtable,
 /obj/item/toy/deck{
@@ -3088,6 +3053,12 @@
 	},
 /turf/open/floor/plating/almayer,
 /area/adminlevel/ert_station)
+"Wq" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "sterile_green_corner"
+	},
+/area/adminlevel/ert_station)
 "WA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
@@ -3137,7 +3108,7 @@
 "Xg" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/carpet,
-/area/space)
+/area/adminlevel/ert_station)
 "Xi" = (
 /obj/structure/sign/poster/music,
 /turf/closed/wall,
@@ -3149,7 +3120,7 @@
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "XA" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/snacks/pastatomato,
@@ -3287,9 +3258,6 @@
 /obj/item/tool/pen,
 /turf/open/floor/carpet,
 /area/adminlevel/ert_station)
-"Zq" = (
-/turf/closed/wall,
-/area/space)
 "Zr" = (
 /obj/structure/sign/poster{
 	pixel_x = -32;
@@ -3377,7 +3345,7 @@
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
 	},
-/area/space)
+/area/adminlevel/ert_station)
 "ZU" = (
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/carpet,
@@ -3735,13 +3703,13 @@ wW
 wW
 wW
 wW
-ye
-ye
-ye
-ye
-ye
-ye
-ye
+wW
+wW
+wW
+wW
+wW
+wW
+wW
 as
 as
 as
@@ -3887,13 +3855,13 @@ Ly
 Ly
 Ya
 wW
-rp
-vT
-tI
-Mp
-Rg
-II
-ye
+yQ
+yC
+yk
+rR
+Gr
+BV
+wW
 as
 as
 as
@@ -4039,13 +4007,13 @@ FB
 FB
 Fo
 wW
-Es
-Es
-Es
-Es
-Es
-Es
-ye
+CU
+CU
+CU
+CU
+CU
+CU
+wW
 as
 as
 as
@@ -4191,13 +4159,13 @@ hP
 FB
 Fo
 wW
-PF
-Es
-Es
-Es
-Es
-Es
-ye
+zg
+CU
+CU
+CU
+CU
+CU
+wW
 as
 as
 as
@@ -4343,13 +4311,13 @@ FB
 FB
 Fo
 wW
-cE
-Es
-Es
-Es
-Es
-Es
-ye
+zk
+CU
+CU
+CU
+CU
+CU
+wW
 as
 as
 as
@@ -4495,13 +4463,13 @@ FB
 FB
 Fo
 wW
-kP
-kP
+St
+St
 Dj
 BG
-aZ
+uk
 cX
-ye
+wW
 as
 as
 as
@@ -4652,8 +4620,8 @@ pC
 pC
 pC
 pC
-ca
-ye
+NZ
+wW
 as
 as
 as
@@ -4799,13 +4767,13 @@ FB
 FB
 Fo
 wW
-ca
-ca
-ca
-ca
-ca
-ca
-ye
+NZ
+NZ
+NZ
+NZ
+NZ
+NZ
+wW
 as
 as
 as
@@ -4952,12 +4920,12 @@ FB
 Fo
 wW
 xu
-ca
+NZ
 pG
 pG
 pG
-ca
-ye
+NZ
+wW
 as
 as
 as
@@ -5104,12 +5072,12 @@ FB
 Fo
 wW
 az
-ca
+NZ
 Xg
 Xg
 Xg
-ca
-ye
+NZ
+wW
 as
 as
 as
@@ -5256,12 +5224,12 @@ FB
 Fo
 wW
 wM
-ca
+NZ
 Xg
 Xg
 Xg
-ca
-ye
+NZ
+wW
 as
 as
 as
@@ -5408,12 +5376,12 @@ Js
 Ya
 wW
 jQ
-ca
+NZ
 ly
 ly
 ly
-ca
-ye
+NZ
+wW
 as
 as
 as
@@ -5559,13 +5527,13 @@ wW
 wW
 wW
 wW
-ca
-ca
-ca
-ca
-ca
-ca
-ye
+NZ
+NZ
+NZ
+NZ
+NZ
+NZ
+wW
 as
 as
 as
@@ -5692,32 +5660,32 @@ aa
 aC
 as
 TT
-ye
+wW
 ED
 qh
 KE
 qh
 qh
 oI
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Zq
-nl
-nl
-Sm
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+YU
+Rj
+Rj
+na
 ad
-nl
-nl
-ye
+Rj
+Rj
+wW
 as
 as
 as
@@ -5844,32 +5812,32 @@ aa
 aC
 as
 TT
-ye
+wW
 fJ
-MI
+AL
 Xj
-MI
-MI
+AL
+AL
 Ir
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -5996,32 +5964,32 @@ aa
 aC
 as
 TT
-ye
+wW
 LI
 OR
 ZT
-MI
-MI
-Ir
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+AL
+AL
+fd
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -6148,32 +6116,32 @@ aa
 aC
 as
 TT
-ye
-HS
-MI
-MI
-MI
-MI
-Ir
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+pm
+AL
+AL
+AL
+AL
+Cl
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -6300,32 +6268,32 @@ aa
 aC
 as
 TT
-ye
-HS
-MI
-MI
-MI
-MI
-Ir
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+pm
+AL
+AL
+AL
+AL
+tN
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -6452,32 +6420,32 @@ aa
 aC
 as
 TT
-ye
-HS
-MI
-MI
-MI
-MI
-Ir
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+pm
+AL
+AL
+AL
+AL
+tN
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -6604,32 +6572,32 @@ aa
 aC
 as
 TT
-ye
-HS
-MI
-MI
-MI
-MI
-Ir
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+pm
+AL
+AL
+AL
+AL
+tN
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -6756,32 +6724,32 @@ aa
 aC
 as
 TT
-ye
-HS
-MI
-MI
-MI
-MI
-Ir
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+pm
+AL
+AL
+AL
+AL
+tN
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -6908,32 +6876,32 @@ aa
 aC
 as
 TT
-ye
-HS
-MI
-MI
-MI
-MI
-Ir
-Zq
-Fz
-Fz
+wW
+pm
+AL
+AL
+AL
+AL
+tN
+YU
+Am
+Am
 gG
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -7060,32 +7028,32 @@ aa
 aC
 as
 TT
-ye
-HS
-MI
-MI
-MI
-MI
-Ir
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+pm
+AL
+AL
+AL
+AL
+tN
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -7212,32 +7180,32 @@ aa
 aC
 as
 TT
-ye
+wW
 FQ
 DQ
 DQ
 DQ
 DQ
-Gj
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
-ye
-ye
-ye
-ye
+Wq
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
+wW
+wW
+wW
+wW
 as
 as
 as
@@ -7364,28 +7332,28 @@ aa
 aC
 as
 TT
-ye
-Zq
-Zq
-Zq
-Zq
-Zq
-Zq
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+YU
+YU
+YU
+YU
+YU
+YU
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -7516,28 +7484,28 @@ aa
 aC
 as
 TT
-ye
+wW
+eb
+an
 Fz
-UA
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -7668,28 +7636,28 @@ aa
 aC
 as
 TT
-ye
-Fz
-UA
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+Ic
+an
+vF
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -7820,28 +7788,28 @@ aC
 aC
 as
 TT
-ye
-Zq
-Zq
-Zq
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+YU
+YU
+YU
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -7972,28 +7940,28 @@ aC
 aa
 as
 TT
-ye
+wW
+eb
+an
 Fz
-UA
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -8124,28 +8092,28 @@ aC
 aa
 as
 TT
-ye
-Fz
-UA
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-Fz
-ye
+wW
+Ic
+an
+vF
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+Am
+wW
 as
 as
 as
@@ -8298,7 +8266,7 @@ wW
 wW
 wW
 wW
-as
+wW
 as
 as
 as
@@ -8450,7 +8418,7 @@ Ly
 Ly
 Ly
 Ya
-as
+wW
 as
 as
 as
@@ -8602,7 +8570,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -8754,7 +8722,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -8906,7 +8874,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -9058,7 +9026,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -9210,7 +9178,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -9362,7 +9330,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -9514,7 +9482,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 aa
 aa
 aa
@@ -9666,7 +9634,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -9818,7 +9786,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -9970,7 +9938,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -10122,7 +10090,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -10274,7 +10242,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -10426,7 +10394,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -10578,7 +10546,7 @@ FB
 FB
 FB
 Fo
-as
+Sk
 as
 as
 as
@@ -10730,36 +10698,36 @@ FB
 FB
 FB
 eA
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-as
-as
-as
-as
-as
-as
-as
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+as
+as
+as
+as
+as
+as
+as
+lJ
 va
 ug
 AL
@@ -10882,36 +10850,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-as
-as
-as
-as
-as
-as
-as
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+as
+as
+as
+as
+as
+as
+as
+lJ
 YU
 YU
 AL
@@ -11034,7 +11002,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -11063,7 +11031,7 @@ aa
 aa
 aa
 aa
-Sk
+lJ
 AL
 AL
 AL
@@ -11186,36 +11154,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-as
-as
-as
-as
-as
-as
-as
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+as
+as
+as
+as
+as
+as
+as
+lJ
 YU
 YU
 YU
@@ -11338,36 +11306,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+lJ
 BV
 Gr
 rR
@@ -11490,36 +11458,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-aa
-as
-as
-as
-as
-as
-as
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+aa
+as
+as
+as
+as
+as
+as
+lJ
 uk
 CU
 CU
@@ -11642,36 +11610,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-aa
-as
-as
-as
-as
-as
-as
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+aa
+as
+as
+as
+as
+as
+as
+lJ
 yk
 CU
 CU
@@ -11794,36 +11762,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+lJ
 yC
 CU
 CU
@@ -11946,36 +11914,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-aa
-as
-as
-as
-as
-as
-as
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+aa
+as
+as
+as
+as
+as
+as
+lJ
 yQ
 CU
 CU
@@ -12098,36 +12066,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-aa
-as
-as
-as
-as
-as
-as
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+aa
+as
+as
+as
+as
+as
+as
+lJ
 zg
 CU
 CU
@@ -12250,36 +12218,36 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-aa
-as
-as
-as
-as
-as
-as
 wW
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+aa
+aa
+as
+as
+as
+as
+as
+as
+lJ
 zk
 CU
 CU
@@ -12402,7 +12370,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -12554,31 +12522,7 @@ FB
 FB
 FB
 Fo
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-aa
-aa
-aa
-aa
-as
+wW
 as
 as
 as
@@ -12600,6 +12544,30 @@ as
 as
 aa
 aa
+aa
+aa
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+aa
+as
 aa
 aa
 aa
@@ -12706,7 +12674,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -12858,7 +12826,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -13010,7 +12978,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -13162,7 +13130,7 @@ FB
 FB
 FB
 Fo
-as
+wW
 as
 as
 as
@@ -13314,7 +13282,7 @@ Js
 Js
 Js
 Ya
-as
+wW
 as
 as
 as
@@ -13466,7 +13434,7 @@ wW
 wW
 wW
 wW
-as
+wW
 as
 as
 as
@@ -15128,7 +15096,7 @@ Am
 uV
 Am
 Am
-Am
+ng
 Am
 Am
 Am
@@ -15291,7 +15259,7 @@ St
 St
 Ej
 as
-as
+aa
 as
 as
 as
@@ -15421,7 +15389,7 @@ as
 as
 TT
 Ej
-Ma
+DM
 Am
 Am
 Am
@@ -15725,9 +15693,9 @@ as
 as
 TT
 Ej
-DM
+Ma
 Am
-Am
+rh
 Am
 Am
 ib
@@ -15877,10 +15845,10 @@ as
 as
 TT
 Ej
-ib
+Cr
 Sa
 ib
-ib
+Cr
 Uo
 ib
 Am
@@ -16194,7 +16162,7 @@ YW
 YW
 Ut
 Am
-Am
+Md
 uV
 Am
 Am
