@@ -91,6 +91,12 @@
 	icon_state = "w-y0"
 	},
 /area/tdome)
+"aH" = (
+/obj/structure/machinery/autodoc_console,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green"
+	},
+/area/adminlevel/ert_station)
 "aK" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet,
@@ -129,6 +135,12 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station)
+"cH" = (
+/turf/open/floor/corsat{
+	icon_state = "darkgreen";
+	dir = 4
+	},
+/area/space)
 "cK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -144,6 +156,12 @@
 	icon_state = "greencorner"
 	},
 /area/adminlevel/ert_station)
+"cP" = (
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "darkgreen"
+	},
+/area/space)
 "cU" = (
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
@@ -209,6 +227,19 @@
 	teleport_z_offset = 1
 	},
 /turf/open/space/transit/east/shuttlespace_ew7,
+/area/space)
+"dT" = (
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = 8;
+	pixel_y = 18
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 18
+	},
+/turf/open/floor/wood/ship,
 /area/space)
 "eb" = (
 /turf/open/floor/almayer{
@@ -374,6 +405,7 @@
 /area/centcom/control)
 "fJ" = (
 /obj/structure/machinery/optable,
+/obj/item/tank/anesthetic,
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "sterile_green_side"
@@ -478,24 +510,63 @@
 	icon_state = "plating"
 	},
 /area/adminlevel/ert_station)
-"gG" = (
-/obj/structure/mirror,
-/turf/open/floor/almayer,
-/area/adminlevel/ert_station)
+"gI" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 8
+	},
+/turf/open/floor/wood/ship,
+/area/space)
 "gR" = (
 /turf/open/floor/almayer{
 	dir = 6;
 	icon_state = "sterile_green_side"
 	},
 /area/adminlevel/ert_station)
+"gS" = (
+/turf/open/floor/corsat{
+	dir = 4;
+	icon_state = "green"
+	},
+/area/space)
+"gU" = (
+/obj/structure/machinery/cm_vending/sorted/boozeomat/chess,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
 "gX" = (
 /turf/open/floor/almayer{
 	icon_state = "floor"
 	},
 /area/adminlevel/ert_station/shuttle_dispatch)
+"hk" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/toy/deck/uno,
+/turf/open/floor/carpet,
+/area/adminlevel/ert_station)
 "hp" = (
 /turf/closed/wall/indestructible,
 /area/start)
+"hw" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/ashtray/glass,
+/obj/item/trash/cigbutt/cigarbutt{
+	pixel_x = 6;
+	pixel_y = 13
+	},
+/turf/open/floor/wood/ship,
+/area/space)
+"hA" = (
+/turf/open/floor/almayer{
+	icon_state = "red";
+	dir = 8
+	},
+/area/adminlevel/ert_station)
+"hB" = (
+/obj/structure/machinery/chem_dispenser,
+/obj/item/reagent_container/glass/beaker/bluespace,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green_corner"
+	},
+/area/adminlevel/ert_station)
 "hC" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -538,6 +609,12 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station)
+"iA" = (
+/turf/open/floor/corsat{
+	dir = 5;
+	icon_state = "green"
+	},
+/area/space)
 "iL" = (
 /obj/structure/machinery/status_display{
 	pixel_y = 30
@@ -562,6 +639,21 @@
 "jl" = (
 /obj/structure/surface/table/almayer,
 /obj/item/storage/surgical_tray,
+/obj/item/reagent_container/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	name = "Surgery Cleaner"
+	},
+/turf/open/floor/almayer{
+	icon_state = "sterile_green"
+	},
+/area/adminlevel/ert_station)
+"jm" = (
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/adminlevel/ert_station)
+"jt" = (
+/obj/structure/machinery/medical_pod/autodoc/unskilled,
 /turf/open/floor/almayer{
 	icon_state = "sterile_green"
 	},
@@ -579,10 +671,38 @@
 /obj/item/coin/uranium,
 /turf/open/floor/almayer,
 /area/adminlevel/ert_station)
+"jD" = (
+/obj/structure/surface/table/almayer,
+/obj/item/toy/deck,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
+"jE" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/recharger,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "red"
+	},
+/area/adminlevel/ert_station)
 "jQ" = (
 /obj/structure/machinery/cm_vending/sorted/boozeomat,
 /turf/open/floor/carpet,
 /area/adminlevel/ert_station)
+"jR" = (
+/obj/structure/machinery/cm_vending/sorted/medical/chemistry/no_access{
+	req_access = null
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "sterile_green_side"
+	},
+/area/adminlevel/ert_station)
+"ki" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 2
+	},
+/turf/open/floor/wood/ship,
+/area/space)
 "kn" = (
 /obj/docking_port/stationary/emergency_response/idle_port3,
 /turf/open/floor/plating,
@@ -600,6 +720,12 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "floor"
+	},
+/area/adminlevel/ert_station)
+"lq" = (
+/turf/open/floor/almayer{
+	icon_state = "cargo_arrow";
+	dir = 1
 	},
 /area/adminlevel/ert_station)
 "ly" = (
@@ -635,6 +761,14 @@
 	icon_state = "plate"
 	},
 /area/adminlevel/ert_station)
+"mc" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/faxmachine/uscm/brig,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "red"
+	},
+/area/adminlevel/ert_station)
 "me" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -644,6 +778,33 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station)
+"mn" = (
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/space)
+"mG" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/mineral/phoron{
+	amount = 25;
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/box/pillbottles{
+	pixel_y = 11
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "sterile_green_side"
+	},
+/area/adminlevel/ert_station)
+"mT" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/wood/ship,
+/area/space)
 "na" = (
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -665,6 +826,21 @@
 "no" = (
 /turf/open/floor/almayer{
 	icon_state = "greencorner"
+	},
+/area/adminlevel/ert_station)
+"nz" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 4
+	},
+/turf/open/floor/wood/ship,
+/area/space)
+"nB" = (
+/obj/structure/machinery/cm_vending/sorted/medical/no_access{
+	req_access = null
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "sterile_green_side"
 	},
 /area/adminlevel/ert_station)
 "nP" = (
@@ -943,11 +1119,28 @@
 	icon_state = "redfull"
 	},
 /area/adminlevel/ert_station)
+"sf" = (
+/obj/structure/transmitter/hidden{
+	dir = 8;
+	name = "Station Telephone";
+	phone_id = "Unknown Signal";
+	pixel_x = 14
+	},
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
 "sj" = (
 /obj/structure/machinery/faxmachine,
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/almayer{
 	icon_state = "floor"
+	},
+/area/adminlevel/ert_station)
+"sm" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/recharger,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "sterile_green_side"
 	},
 /area/adminlevel/ert_station)
 "sq" = (
@@ -956,6 +1149,13 @@
 	dir = 5
 	},
 /area/tdome/tdomeobserve)
+"sv" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/emails{
+	dir = 4
+	},
+/turf/open/floor/wood/ship,
+/area/space)
 "sy" = (
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
@@ -995,6 +1195,10 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station)
+"tm" = (
+/obj/structure/machinery/newscaster/security_unit,
+/turf/closed/wall/r_wall/biodome/biodome_unmeltable,
+/area/adminlevel/ert_station)
 "tx" = (
 /obj/structure/machinery/hologram/holopad,
 /turf/open/floor/carpet,
@@ -1006,6 +1210,10 @@
 	icon_state = "sterile_green"
 	},
 /area/adminlevel/ert_station)
+"tG" = (
+/obj/structure/bed/chair/comfy/beige,
+/turf/open/floor/wood/ship,
+/area/space)
 "tN" = (
 /turf/open/floor/almayer{
 	dir = 7;
@@ -1023,10 +1231,20 @@
 	},
 /turf/open/floor/plating/almayer,
 /area/adminlevel/ert_station)
+"tX" = (
+/turf/closed/wall/r_wall/biodome/biodome_unmeltable,
+/area/space)
 "tY" = (
 /obj/structure/machinery/washing_machine,
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
+	},
+/area/adminlevel/ert_station)
+"ue" = (
+/obj/structure/machinery/chem_master,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "sterile_green_side"
 	},
 /area/adminlevel/ert_station)
 "uf" = (
@@ -1132,6 +1350,10 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station)
+"vb" = (
+/obj/structure/machinery/disposal,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
 "vh" = (
 /obj/structure/machinery/cryopod{
 	layer = 3.1;
@@ -1156,6 +1378,13 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station/shuttle_dispatch)
+"vC" = (
+/obj/structure/bed,
+/obj/item/bedsheet,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/adminlevel/ert_station)
 "vD" = (
 /turf/open/floor/carpet{
 	desc = "Plush, waterproof carpet. Apparently it's fire resistant while remaining quite soft.";
@@ -1264,6 +1493,9 @@
 	icon_state = "floor"
 	},
 /area/adminlevel/ert_station)
+"wC" = (
+/turf/open/floor/wood/ship,
+/area/space)
 "wL" = (
 /obj/structure/machinery/disposal/deliveryChute,
 /obj/structure/disposalpipe/trunk{
@@ -1282,6 +1514,12 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/autoname,
 /turf/open/floor/plating/almayer,
 /area/adminlevel/ert_station/shuttle_dispatch)
+"wZ" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/turf/open/floor/wood/ship,
+/area/space)
 "xb" = (
 /obj/structure/machinery/door/airlock/almayer/engineering{
 	name = "\improper Engineering Storage"
@@ -1333,8 +1571,28 @@
 	icon_state = "w-y2"
 	},
 /area/adminlevel/ert_station)
+"xZ" = (
+/obj/structure/closet/secure_closet/surgical{
+	pixel_y = 30
+	},
+/obj/item/reagent_container/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	name = "Surgery Cleaner"
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/corsat{
+	dir = 9;
+	icon_state = "darkgreen"
+	},
+/area/space)
 "ye" = (
 /turf/closed/wall/r_wall/unmeltable,
+/area/space)
+"yg" = (
+/turf/open/floor/corsat{
+	dir = 6;
+	icon_state = "darkgreen"
+	},
 /area/space)
 "yk" = (
 /obj/structure/surface/table/reinforced,
@@ -1476,6 +1734,13 @@
 	icon_state = "sterile_green_side"
 	},
 /area/adminlevel/ert_station)
+"zR" = (
+/obj/structure/closet/secure_closet/brig/prisoner,
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "red"
+	},
+/area/adminlevel/ert_station)
 "Am" = (
 /turf/open/floor/almayer,
 /area/adminlevel/ert_station)
@@ -1502,10 +1767,22 @@
 "AS" = (
 /turf/closed/wall/almayer/outer,
 /area/tdome/tdome2)
+"Bc" = (
+/turf/open/floor/corsat{
+	dir = 9;
+	icon_state = "darkgreen"
+	},
+/area/space)
 "Be" = (
 /obj/structure/machinery/vending/security,
 /turf/open/floor/almayer{
 	icon_state = "redfull"
+	},
+/area/adminlevel/ert_station)
+"Bj" = (
+/obj/structure/machinery/cm_vending/sorted/medical/blood,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station)
 "Bv" = (
@@ -1531,6 +1808,17 @@
 /turf/open/floor/prison{
 	icon_state = "kitchen"
 	},
+/area/adminlevel/ert_station)
+"BH" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/megaphone,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
+"BM" = (
+/obj/structure/closet{
+	name = "boxing attire"
+	},
+/turf/open/floor/almayer,
 /area/adminlevel/ert_station)
 "BO" = (
 /obj/effect/decal/warning_stripes{
@@ -1637,6 +1925,12 @@
 	icon_state = "tcomms"
 	},
 /area/adminlevel/ert_station)
+"CW" = (
+/turf/closed/wall/r_wall/biodome,
+/area/space)
+"CZ" = (
+/turf/closed/wall/r_wall/biodome/biodome_unmeltable,
+/area/adminlevel/ert_station)
 "Dj" = (
 /obj/structure/surface/table/reinforced,
 /obj/item/clothing/suit/chef/classic,
@@ -1694,6 +1988,14 @@
 	icon_state = "redfull"
 	},
 /area/adminlevel/ert_station)
+"DN" = (
+/obj/structure/machinery/optable,
+/obj/item/tank/anesthetic,
+/turf/open/floor/corsat{
+	dir = 1;
+	icon_state = "darkgreen"
+	},
+/area/space)
 "DQ" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -1903,11 +2205,6 @@
 	icon_state = "tcomms"
 	},
 /area/adminlevel/ert_station)
-"FQ" = (
-/turf/open/floor/almayer{
-	icon_state = "sterile_green_corner"
-	},
-/area/adminlevel/ert_station)
 "FT" = (
 /turf/open/floor/almayer{
 	icon_state = "silver"
@@ -1979,6 +2276,12 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station)
+"Gt" = (
+/turf/open/floor/corsat{
+	dir = 8;
+	icon_state = "darkgreen"
+	},
+/area/space)
 "Gv" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/snacks/sandwich{
@@ -2034,6 +2337,11 @@
 	dir = 5
 	},
 /area/tdome/tdome2)
+"GQ" = (
+/obj/structure/surface/table/almayer,
+/obj/item/toy/deck/uno,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
 "GT" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	name = "Restroom"
@@ -2121,6 +2429,15 @@
 	icon_state = "red"
 	},
 /area/adminlevel/ert_station)
+"Iu" = (
+/obj/structure/machinery/bioprinter{
+	stored_metal = 1000
+	},
+/turf/open/floor/corsat{
+	dir = 5;
+	icon_state = "darkgreen"
+	},
+/area/space)
 "ID" = (
 /obj/structure/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -2216,6 +2533,10 @@
 	icon_state = "greencorner"
 	},
 /area/adminlevel/ert_station)
+"KD" = (
+/obj/structure/window/framed/colony,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station)
 "KE" = (
 /obj/structure/window/reinforced/tinted/frosted,
 /turf/open/floor/almayer{
@@ -2238,6 +2559,15 @@
 	icon_state = "S"
 	},
 /turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station)
+"La" = (
+/obj/structure/surface/table/almayer,
+/obj/item/paper_bin/uscm{
+	pixel_y = 7
+	},
+/obj/item/tool/pen,
+/obj/item/tool/pen,
+/turf/open/floor/almayer,
 /area/adminlevel/ert_station)
 "Ld" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med/souto{
@@ -2314,6 +2644,10 @@
 /obj/structure/window/reinforced/tinted/frosted{
 	dir = 4
 	},
+/obj/item/reagent_container/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	name = "Surgery Cleaner"
+	},
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "sterile_green_side"
@@ -2336,6 +2670,12 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "plating_striped"
+	},
+/area/adminlevel/ert_station)
+"LW" = (
+/obj/structure/machinery/cryopod/right,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
 	},
 /area/adminlevel/ert_station)
 "LZ" = (
@@ -2361,6 +2701,14 @@
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/faxmachine,
 /turf/open/floor/almayer,
+/area/adminlevel/ert_station)
+"Mh" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
 /area/adminlevel/ert_station)
 "Mk" = (
 /obj/structure/sign/safety,
@@ -2453,6 +2801,18 @@
 	},
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station)
+"Np" = (
+/obj/structure/mirror{
+	pixel_y = 29;
+	pixel_x = -1
+	},
+/obj/structure/sink{
+	pixel_y = 16
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/adminlevel/ert_station)
 "Nt" = (
 /obj/structure/noticeboard{
 	desc = "It seems very, very empty.";
@@ -2502,6 +2862,17 @@
 "NH" = (
 /obj/structure/sign/nosmoking_2,
 /turf/closed/wall,
+/area/adminlevel/ert_station)
+"NK" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/defibrillator/upgraded,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "sterile_green_corner"
+	},
 /area/adminlevel/ert_station)
 "NY" = (
 /obj/effect/decal/warning_stripes{
@@ -2581,6 +2952,15 @@
 	icon_state = "test_floor5"
 	},
 /area/adminlevel/ert_station)
+"ON" = (
+/obj/structure/machinery/cryopod/right{
+	pixel_y = 13;
+	layer = 3.01
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/adminlevel/ert_station)
 "OR" = (
 /obj/structure/window/reinforced/tinted/frosted{
 	dir = 4
@@ -2597,6 +2977,14 @@
 /obj/structure/machinery/faxmachine/uscm/brig,
 /turf/open/floor/almayer{
 	icon_state = "redfull"
+	},
+/area/adminlevel/ert_station)
+"Ph" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	name = "Restroom"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/adminlevel/ert_station)
 "Po" = (
@@ -2625,6 +3013,12 @@
 	icon_state = "w-y1"
 	},
 /area/tdome)
+"PM" = (
+/turf/open/floor/corsat{
+	dir = 10;
+	icon_state = "green"
+	},
+/area/space)
 "PS" = (
 /obj/item/trash/cigbutt/cigarbutt,
 /turf/open/floor/almayer{
@@ -2712,6 +3106,13 @@
 	},
 /turf/open/floor/almayer,
 /area/adminlevel/ert_station)
+"Rx" = (
+/obj/structure/sign/safety/debark_lounge{
+	pixel_x = 15;
+	pixel_y = -32
+	},
+/turf/closed/wall/r_wall/biodome/biodome_unmeltable,
+/area/adminlevel/ert_station)
 "RF" = (
 /turf/open/floor/almayer{
 	icon_state = "sterile_green"
@@ -2757,7 +3158,7 @@
 "Sa" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	dir = 4;
-	id = ssss;
+	id = "RMC_brig_2";
 	name = "shutters"
 	},
 /obj/structure/machinery/door/airlock/almayer/security/glass/reinforced,
@@ -2778,6 +3179,16 @@
 "Se" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food,
 /turf/open/floor/almayer,
+/area/adminlevel/ert_station)
+"Sg" = (
+/turf/open/floor/corsat{
+	icon_state = "green"
+	},
+/area/space)
+"Sj" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/toy/deck,
+/turf/open/floor/carpet,
 /area/adminlevel/ert_station)
 "Sk" = (
 /obj/structure/machinery/door/poddoor/almayer{
@@ -2801,9 +3212,13 @@
 	icon_state = "kitchen"
 	},
 /area/adminlevel/ert_station)
-"Sw" = (
-/obj/structure/machinery/newscaster/security_unit,
-/turf/closed/wall/r_wall/unmeltable,
+"SK" = (
+/obj/structure/machinery/cm_vending/sorted/medical/no_access{
+	req_access = null
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
 /area/adminlevel/ert_station)
 "SM" = (
 /turf/open/floor/tdome{
@@ -2839,6 +3254,19 @@
 	icon_state = "w-y1"
 	},
 /area/adminlevel/ert_station)
+"Tv" = (
+/obj/structure/machinery/computer/arcade{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station)
+"TB" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/paper_bin{
+	pixel_y = 10
+	},
+/turf/open/floor/wood/ship,
+/area/space)
 "TD" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -2936,8 +3364,8 @@
 "Uo" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	dir = 4;
-	id = "RMC_brig_1";
-	name = "shutters"
+	name = "shutters";
+	id = "RMC_brig_1"
 	},
 /obj/structure/machinery/door/airlock/almayer/security/glass/reinforced{
 	dir = 8;
@@ -2959,6 +3387,18 @@
 	icon_state = "greencorner"
 	},
 /area/adminlevel/ert_station)
+"Uu" = (
+/turf/open/floor/corsat{
+	dir = 6;
+	icon_state = "green"
+	},
+/area/space)
+"Uz" = (
+/turf/open/floor/corsat{
+	dir = 8;
+	icon_state = "green"
+	},
+/area/space)
 "UI" = (
 /obj/structure/surface/table/gamblingtable,
 /obj/item/toy/deck{
@@ -3008,6 +3448,10 @@
 	},
 /turf/open/floor/plating/almayer,
 /area/adminlevel/ert_station/shuttle_dispatch)
+"Vv" = (
+/obj/structure/window/framed/corsat,
+/turf/open/floor/plating,
+/area/space)
 "VC" = (
 /obj/structure/sign/poster/clf,
 /turf/closed/wall,
@@ -3042,6 +3486,13 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station/shuttle_dispatch)
+"Wo" = (
+/obj/structure/closet/secure_closet/brig/prisoner,
+/turf/open/floor/almayer{
+	icon_state = "red";
+	dir = 8
+	},
+/area/adminlevel/ert_station)
 "Wp" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
@@ -3052,12 +3503,6 @@
 	pixel_x = -24
 	},
 /turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station)
-"Wq" = (
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "sterile_green_corner"
-	},
 /area/adminlevel/ert_station)
 "WA" = (
 /obj/effect/decal/warning_stripes{
@@ -3316,6 +3761,7 @@
 /area/adminlevel/ert_station)
 "ZO" = (
 /obj/structure/machinery/optable,
+/obj/item/tank/anesthetic,
 /turf/open/floor/almayer{
 	icon_state = "sterile_green"
 	},
@@ -3710,6 +4156,50 @@ wW
 wW
 wW
 wW
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 as
 as
 as
@@ -3728,51 +4218,7 @@ as
 as
 as
 as
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
+as
 aC
 aa
 aa
@@ -3862,51 +4308,7 @@ rR
 Gr
 BV
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 Ya
 Ly
 Ly
@@ -3924,7 +4326,51 @@ Ly
 Ly
 Ly
 Ya
-wW
+CZ
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -4014,51 +4460,7 @@ CU
 CU
 CU
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -4076,7 +4478,51 @@ FB
 FB
 FB
 Fo
-wW
+CZ
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -4166,51 +4612,7 @@ CU
 CU
 CU
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -4228,7 +4630,51 @@ FB
 ks
 FB
 Fo
-wW
+CZ
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -4318,51 +4764,7 @@ CU
 CU
 CU
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -4380,7 +4782,51 @@ FB
 FB
 FB
 Fo
-wW
+CZ
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -4470,51 +4916,7 @@ BG
 uk
 cX
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -4532,7 +4934,51 @@ FB
 FB
 FB
 Fo
-wW
+CZ
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -4622,51 +5068,7 @@ pC
 pC
 NZ
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -4684,7 +5086,51 @@ FB
 FB
 FB
 Fo
-wW
+CZ
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -4774,51 +5220,7 @@ NZ
 NZ
 NZ
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -4836,7 +5238,51 @@ FB
 FB
 FB
 Fo
-wW
+CZ
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -4926,51 +5372,7 @@ pG
 pG
 NZ
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -4988,7 +5390,51 @@ FB
 FB
 FB
 Fo
-wW
+CZ
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -5075,54 +5521,10 @@ az
 NZ
 Xg
 Xg
-Xg
+hk
 NZ
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -5140,7 +5542,51 @@ FB
 FB
 FB
 Fo
-wW
+CZ
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -5227,54 +5673,10 @@ wM
 NZ
 Xg
 Xg
-Xg
+Sj
 NZ
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 KW
 FB
 FB
@@ -5292,7 +5694,51 @@ FB
 FB
 FB
 Fo
-wW
+CZ
+xZ
+Gt
+cP
+Uz
+Uz
+Uz
+PM
+tX
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -5382,51 +5828,7 @@ ly
 ly
 NZ
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-wW
+CZ
 Ya
 Js
 ym
@@ -5444,7 +5846,51 @@ Js
 Js
 Js
 Ya
-wW
+CZ
+DN
+mn
+mn
+mn
+mn
+mn
+Sg
+tX
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -5534,69 +5980,69 @@ NZ
 NZ
 NZ
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-Sw
-wW
-PT
-wW
+tm
+CZ
+Rx
+CZ
 ZD
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
-wW
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+Iu
+cH
+yg
+mn
+mn
+mn
+Sg
+tX
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aC
 aa
 aa
@@ -5668,51 +6114,51 @@ qh
 qh
 oI
 YU
+Mv
+BM
 Am
 Am
 Am
 Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
 YU
-Rj
-Rj
+Np
+Mh
+YU
+KD
+KD
 na
 ad
-Rj
-Rj
+KD
+KD
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+CW
+Vv
+Vv
+Vv
+mn
+mn
+mn
+Sg
+tX
 as
 as
 as
@@ -5821,50 +6267,50 @@ AL
 Ir
 YU
 Am
+no
+fk
+fk
+fk
+cO
+uV
+YU
+YU
+Ph
+YU
 Am
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
+uV
 Am
 Am
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+CW
+Bc
+mn
+mn
+mn
+mn
+mn
+Sg
+tX
 as
 as
 as
@@ -5973,50 +6419,50 @@ AL
 fd
 YU
 Am
+ZI
+Ys
+Ys
+Ys
+Nx
+uV
+Am
+Am
+uV
 Am
 Am
 Am
+uV
+uV
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+BS
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+CW
+iA
+gS
+gS
+gS
+gS
+gS
+Uu
+tX
 as
 as
 as
@@ -6117,58 +6563,58 @@ aC
 as
 TT
 wW
-pm
-AL
-AL
+nB
+SK
+Bj
 AL
 AL
 Cl
 YU
 Am
+ZI
+Ys
+CV
+Ys
+Nx
+uV
+Am
+Am
+uV
 Am
 Am
 Am
+uV
+uV
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+jA
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+CW
+CW
+CW
+mn
+mn
+CW
+CW
+CW
+tX
 as
 as
 as
@@ -6272,55 +6718,55 @@ wW
 pm
 AL
 AL
-AL
+RF
 AL
 tN
 YU
 Am
+ZI
+Ys
+Ys
+Ys
+Nx
+uV
+Am
+Am
+uV
 Am
 Am
 Am
+uV
+uV
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+Ms
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -6421,58 +6867,58 @@ aC
 as
 TT
 wW
-pm
+sm
 AL
-AL
-AL
-AL
+RF
+jt
+RF
 tN
 YU
 Am
+TD
+YW
+YW
+YW
+Ut
+uV
 Am
 Am
+uV
+BH
+jm
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
+uV
 Am
 Am
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -6573,58 +7019,58 @@ aC
 as
 TT
 wW
-pm
+mG
 AL
 AL
-AL
+aH
 AL
 tN
+vQ
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+YU
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -6725,58 +7171,58 @@ aC
 as
 TT
 wW
-pm
+jR
 AL
 AL
 AL
 AL
 tN
+na
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
+uV
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+Se
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -6879,56 +7325,56 @@ TT
 wW
 pm
 AL
-AL
-AL
-AL
+wu
+wu
+wu
 tN
 YU
+gU
 Am
-Am
-gG
-Am
-Am
-Am
-Am
+uV
+uV
 Am
 Am
 Am
+uV
+uV
+Am
+jm
+jm
+jm
+jm
 Am
 Am
-Am
-Am
-Am
-Am
-Am
+Se
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -7029,58 +7475,58 @@ aC
 as
 TT
 wW
-pm
-AL
-AL
-AL
-AL
-tN
+hB
+ue
+DQ
+DQ
+DQ
+NK
 YU
+vb
+Am
+uV
+uV
+sf
+Md
+La
+uV
+uV
+Am
+jm
+jm
+jm
+jm
 Am
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+Se
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -7181,58 +7627,58 @@ aC
 as
 TT
 wW
-FQ
-DQ
-DQ
-DQ
-DQ
-Wq
 YU
+YU
+YU
+YU
+YU
+YU
+YU
+Tv
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
+uV
+YU
+YU
+YU
+na
+ad
+YU
+YU
+YU
+YU
 wW
 wW
 wW
 wW
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -7340,51 +7786,51 @@ YU
 YU
 YU
 YU
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+YU
+YU
+uV
+uV
+YU
+rx
+an
+lq
 Am
 Am
 Am
 Am
 Am
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+tX
+tX
+tX
+tX
+CW
+CW
+CW
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -7489,54 +7935,54 @@ eb
 an
 Fz
 Am
+hA
+hA
+Wo
+zR
+YU
+uV
+uV
+YU
+rx
+an
+lq
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
+vC
+vC
+vC
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+TB
+sv
+mT
+nz
+wC
+wC
+Vv
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -7640,55 +8086,55 @@ wW
 Ic
 an
 vF
+Is
 Am
 Am
 Am
 Am
+vQ
+uV
+uV
+YU
+wm
+an
+lq
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
+an
+an
+an
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+wC
+tG
+hw
+wC
+wC
+wC
+Vv
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -7792,55 +8238,55 @@ wW
 YU
 YU
 YU
+Is
 Am
 Am
 Am
 Am
+na
+uV
+uV
+YU
+wm
+an
+lq
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
+LW
+ON
+LW
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+dT
+wC
+mT
+gI
+wC
+wC
+ki
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -7948,51 +8394,51 @@ Am
 Am
 Am
 Am
+uI
+YU
 Am
 Am
+YU
+nj
+an
+lq
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
+an
+an
+an
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+wZ
+wC
+mT
+wC
+wC
+wC
+Vv
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -8096,55 +8542,55 @@ wW
 Ic
 an
 vF
+TZ
+Ez
+jE
+mc
+zt
+YU
 Am
 Am
+YU
+nj
+an
+lq
 Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
-Am
+uV
+LW
+LW
+ON
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+tX
+wC
+wC
+wC
+wC
+wC
+Vv
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+mn
+tX
 as
 as
 as
@@ -8267,36 +8713,36 @@ wW
 wW
 wW
 wW
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
-as
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
+tX
 as
 as
 as
@@ -15699,7 +16145,7 @@ rh
 Am
 Am
 ib
-Am
+BM
 ZI
 Ys
 Ys
@@ -15709,7 +16155,7 @@ Am
 Am
 uV
 Am
-cj
+GQ
 cj
 cj
 Am
@@ -15861,7 +16307,7 @@ Am
 Am
 uV
 Am
-cj
+jD
 cj
 cj
 Am
@@ -16164,7 +16610,7 @@ Ut
 Am
 Md
 uV
-Am
+vb
 Am
 Am
 Am
