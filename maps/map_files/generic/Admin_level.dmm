@@ -850,6 +850,9 @@
 /obj/docking_port/stationary/emergency_response/idle_port2,
 /turf/open/floor/plating,
 /area/adminlevel/ert_station)
+"ku" = (
+/turf/closed/wall/strata_outpost/reinforced,
+/area/adminlevel/ert_station)
 "kx" = (
 /turf/closed/wall/indestructible/splashscreen,
 /area/start)
@@ -17631,12 +17634,12 @@ jI
 jI
 jI
 jI
-jI
-jI
-jI
-jI
-jI
-jI
+ku
+ku
+ku
+ku
+ku
+ku
 qJ
 uu
 qJ
@@ -17783,7 +17786,7 @@ jI
 jI
 jI
 jI
-jI
+ku
 jI
 jI
 jI
@@ -17935,7 +17938,7 @@ jI
 jI
 jI
 jI
-jI
+ku
 jI
 jI
 jI
@@ -18391,7 +18394,7 @@ jI
 jI
 jI
 jI
-jI
+ku
 jI
 jI
 jI
@@ -18543,7 +18546,7 @@ jI
 jI
 jI
 jI
-jI
+ku
 jI
 jI
 jI
@@ -18695,12 +18698,12 @@ jI
 jI
 jI
 jI
-jI
-jI
-jI
-jI
-jI
-jI
+ku
+ku
+ku
+ku
+ku
+ku
 qJ
 ss
 FB
