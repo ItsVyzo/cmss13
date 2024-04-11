@@ -7,12 +7,18 @@ GLOBAL_LIST_INIT(cm_vending_clothing_military_police, list(
 		list("STANDARD EQUIPMENT (TAKE ALL)", 0, null, null, null),
 		list("Gloves", 0, /obj/item/clothing/gloves/marine, MARINE_CAN_BUY_GLOVES, VENDOR_ITEM_MANDATORY),
 		list("Uniform", 0, /obj/item/clothing/under/marine/mp, MARINE_CAN_BUY_UNIFORM, VENDOR_ITEM_MANDATORY),
-		list("Headset", 0, /obj/item/device/radio/headset/almayer/mmpo, MARINE_CAN_BUY_EAR, VENDOR_ITEM_MANDATORY),
+		list("Headset", 0, /obj/item/device/radio/headset/almayer/mp, MARINE_CAN_BUY_EAR, VENDOR_ITEM_MANDATORY),
+		list("Helmet", 0, /obj/item/clothing/head/helmet/marine/MP, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_MANDATORY),
+		list("MP Beret", 0, /obj/item/clothing/head/beret/marine/mp, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_MANDATORY),
 		list("Marine Combat Boots", 0, /obj/item/clothing/shoes/marine/knife, MARINE_CAN_BUY_SHOES, VENDOR_ITEM_MANDATORY),
 
-		list("ARMOR (TAKE ALL)", 0, null, null, null),
-		list("Military Police M2 Armor", 0, /obj/item/clothing/suit/storage/marine/MP, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_MANDATORY),
-		list("MP Beret", 0, /obj/item/clothing/head/beret/marine/mp, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_MANDATORY),
+		list("ARMOR (CHOOSE 1)", 0, null, null, null),
+		list("Military Police M2 Pattern Armor", 0, /obj/item/clothing/suit/storage/marine/MP, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_MANDATORY),
+		list("Military Police M2 Pattern Padless Armor", 0, /obj/item/clothing/suit/storage/marine/MP/padless, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_MANDATORY),
+
+		list("COMBAT EQUIPMENT (TAKE ONE)", 0, null, null, null),
+		list("M41A Pulse Rifle MK2", 0, /obj/effect/essentials_set/mp, MARINE_CAN_BUY_ESSENTIALS, VENDOR_ITEM_RECOMMENDED),
+		list("L42A Battle Rifle", 0, /obj/effect/essentials_set/mp/l42a, MARINE_CAN_BUY_ESSENTIALS, VENDOR_ITEM_REGULAR),
 
 		list("HANDGUN CASE (CHOOSE 1)", 0, null, null, null),
 		list("88 mod 4 Combat Pistol Case", 0, /obj/item/storage/box/guncase/mod88, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_MANDATORY),
@@ -34,6 +40,7 @@ GLOBAL_LIST_INIT(cm_vending_clothing_military_police, list(
 		list("First-Aid Pouch (Pill Packets)", 0, /obj/item/storage/pouch/firstaid/full/pills, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_RECOMMENDED),
 		list("Pistol Magazine Pouch", 0, /obj/item/storage/pouch/magazine/pistol, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
 		list("Pistol Pouch", 0, /obj/item/storage/pouch/pistol, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
+		list("Magazine Pouch", 0, /obj/item/storage/pouch/magazine, (MARINE_CAN_BUY_R_POUCH|MARINE_CAN_BUY_L_POUCH), VENDOR_ITEM_REGULAR),
 
 		list("MASK (CHOOSE 1)", 0, null, null, null),
 		list("Gas Mask", 0, /obj/item/clothing/mask/gas, MARINE_CAN_BUY_MASK, VENDOR_ITEM_REGULAR),
@@ -56,6 +63,24 @@ GLOBAL_LIST_INIT(cm_vending_clothing_military_police, list(
 /obj/structure/machinery/cm_vending/clothing/military_police/get_listed_products(mob/user)
 	return GLOB.cm_vending_clothing_military_police
 
+	return GLOB.cm_vending_clothing_mp
+/obj/effect/essentials_set/mp
+	spawned_gear_list = list(
+		/obj/item/weapon/gun/rifle/m41a,
+		/obj/item/device/binoculars,
+		/obj/item/ammo_magazine/rifle,
+		/obj/item/ammo_magazine/rifle,
+		/obj/item/ammo_magazine/rifle
+	)
+
+/obj/effect/essentials_set/mp/l42a
+	spawned_gear_list = list(
+		/obj/item/weapon/gun/rifle/l42a,
+		/obj/item/device/binoculars,
+		/obj/item/ammo_magazine/rifle/l42a,
+		/obj/item/ammo_magazine/rifle/l42a,
+		/obj/item/ammo_magazine/rifle/l42a
+	)
 //------------ Warden CLOTHING VENDOR---------------
 
 GLOBAL_LIST_INIT(cm_vending_clothing_military_police_warden, list(
@@ -65,7 +90,9 @@ GLOBAL_LIST_INIT(cm_vending_clothing_military_police_warden, list(
 		list("STANDARD EQUIPMENT (TAKE ALL)", 0, null, null, null),
 		list("Gloves", 0, /obj/item/clothing/gloves/marine, MARINE_CAN_BUY_GLOVES, VENDOR_ITEM_MANDATORY),
 		list("Warden Uniform", 0, /obj/item/clothing/under/marine/warden, MARINE_CAN_BUY_UNIFORM, VENDOR_ITEM_MANDATORY),
-		list("Headset", 0, /obj/item/device/radio/headset/almayer/cmpcom, MARINE_CAN_BUY_EAR, VENDOR_ITEM_MANDATORY),
+		list("Headset", 0, /obj/item/device/radio/headset/almayer/cmp, MARINE_CAN_BUY_EAR, VENDOR_ITEM_MANDATORY),
+		list("Helmet", 0, /obj/item/clothing/head/helmet/marine/MP, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_MANDATORY),
+		list("MP Beret", 0, /obj/item/clothing/head/beret/marine/mp, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_MANDATORY),
 		list("Marine Combat Boots", 0, /obj/item/clothing/shoes/marine/knife, MARINE_CAN_BUY_SHOES, VENDOR_ITEM_MANDATORY),
 
 		list("ARMOR (TAKE ALL)", 0, null, null, null),
@@ -119,4 +146,24 @@ GLOBAL_LIST_INIT(cm_vending_clothing_military_police_warden, list(
 		/obj/item/clothing/glasses/sunglasses/sechud,
 		/obj/item/storage/belt/security/MP/full,
 		/obj/item/clothing/head/helmet/marine/MP,
+	)
+
+	return GLOB.cm_vending_clothing_mp
+
+/obj/effect/essentials_set/mp
+	spawned_gear_list = list(
+		/obj/item/weapon/gun/rifle/m41a,
+		/obj/item/device/binoculars,
+		/obj/item/ammo_magazine/rifle,
+		/obj/item/ammo_magazine/rifle,
+		/obj/item/ammo_magazine/rifle
+	)
+
+/obj/effect/essentials_set/mp/l42a
+	spawned_gear_list = list(
+		/obj/item/weapon/gun/rifle/l42a,
+		/obj/item/device/binoculars,
+		/obj/item/ammo_magazine/rifle/l42a,
+		/obj/item/ammo_magazine/rifle/l42a,
+		/obj/item/ammo_magazine/rifle/l42a
 	)
