@@ -55,6 +55,8 @@ GLOBAL_LIST_INIT(whitelisted_client_procs, list(
 	/client/proc/toggle_admin_sound_types,
 	/client/proc/receive_random_tip,
 	/client/proc/set_eye_blur_type,
+	/client/proc/set_flash_type,
+	/client/proc/set_crit_type,
 ))
 
 /client/proc/reduce_minute_count()
@@ -444,7 +446,7 @@ GLOBAL_LIST_INIT(whitelisted_client_procs, list(
 
 	view = GLOB.world_view_size
 
-	SEND_GLOBAL_SIGNAL(COMSIG_GLOB_CLIENT_LOGIN, src)
+	SEND_GLOBAL_SIGNAL(COMSIG_GLOB_CLIENT_LOGGED_IN, src)
 
 	//////////////
 	//DISCONNECT//
