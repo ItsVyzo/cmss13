@@ -11,7 +11,7 @@
 		combined += GLOB.cm_vending_clothing_chief_engineer
 		combined += GLOB.cm_vending_clothing_req_officer
 		combined += GLOB.cm_vending_clothing_cmo
-		combined += GLOB.cm_vending_clothing_military_police_chief
+		combined += GLOB.cm_vending_clothing_cmp
 		return combined
 	if(user.job == JOB_XO)
 		return GLOB.cm_vending_clothing_xo
@@ -22,20 +22,20 @@
 	else if(user.job == JOB_CMO)
 		return GLOB.cm_vending_clothing_cmo
 	else if(user.job == JOB_CHIEF_POLICE)
-		return GLOB.cm_vending_clothing_military_police_chief
+		return GLOB.cm_vending_clothing_cmp
 	else if(user.job == JOB_AUXILIARY_OFFICER)
 		return GLOB.cm_vending_clothing_auxiliary_officer
 	return ..()
 
 
 //------------ CHIEF MP ---------------
-GLOBAL_LIST_INIT(cm_vending_clothing_military_police_chief, list(
+GLOBAL_LIST_INIT(cm_vending_clothing_cmp, list(
 		list("POLICE SET (MANDATORY)", 0, null, null, null),
 		list("Essential Police Set", 0, /obj/effect/essentials_set/chiefmilitarypolice, MARINE_CAN_BUY_ESSENTIALS, VENDOR_ITEM_MANDATORY),
 
 		list("STANDARD EQUIPMENT (TAKE ALL)", 0, null, null, null),
 		list("Gloves", 0, /obj/item/clothing/gloves/marine, MARINE_CAN_BUY_GLOVES, VENDOR_ITEM_MANDATORY),
-		list("CMP Uniform", 0, /obj/item/clothing/under/marine/officer/warrant, MARINE_CAN_BUY_UNIFORM, VENDOR_ITEM_MANDATORY),
+		list("CMP Uniform", 0, /obj/item/clothing/under/marine/officer/cmp, MARINE_CAN_BUY_UNIFORM, VENDOR_ITEM_MANDATORY),
 		list("Headset", 0, /obj/item/device/radio/headset/almayer/cmp, MARINE_CAN_BUY_EAR, VENDOR_ITEM_MANDATORY),
 		list("Marine Combat Boots", 0, /obj/item/clothing/shoes/marine/knife, MARINE_CAN_BUY_SHOES, VENDOR_ITEM_MANDATORY),
 
