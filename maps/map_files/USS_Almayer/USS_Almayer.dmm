@@ -1631,11 +1631,6 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/almayer/cargo,
 /area/almayer/lifeboat_pumps/north1)
-"aef" = (
-/obj/structure/machinery/power/apc/almayer/hardened/south,
-/obj/structure/flora/bush/ausbushes/var3/ppflowers,
-/turf/open/gm/river/pool,
-/area/almayer/living/starboard_garden)
 "aeg" = (
 /obj/structure/pipes/standard/manifold/hidden/supply,
 /turf/open/floor/almayer/dark_sterile,
@@ -30229,11 +30224,11 @@
 /turf/open/floor/almayer/no_build/plating,
 /area/almayer/middeck/maintenance/paft)
 "bvX" = (
-/obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
 /obj/structure/machinery/door/poddoor/shutters/almayer/cl/office/window,
+/obj/structure/window/framed/almayer/white,
 /turf/open/floor/plating,
 /area/almayer/command/corporateliaison)
 "bvY" = (
@@ -47174,11 +47169,11 @@
 /turf/open/floor/almayer/aicore/no_build/ai_floor2,
 /area/almayer/command/airoom)
 "fKh" = (
-/obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/poddoor/shutters/almayer/cl/quarter/window,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
+/obj/structure/window/framed/almayer/white,
 /turf/open/floor/plating,
 /area/almayer/command/corporateliaison)
 "fKi" = (
@@ -83620,6 +83615,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/machinery/power/apc/almayer/hardened/south,
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
 "uNQ" = (
@@ -201315,7 +201311,7 @@ uli
 iYe
 aeH
 adF
-aef
+ezq
 afs
 aet
 tkF
