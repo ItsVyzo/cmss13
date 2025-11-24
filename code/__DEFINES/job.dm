@@ -493,31 +493,38 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 //-------- HYBRISA PROTESTORS --------//
 #define JOB_UNION_LEADER "Union Leader"
 #define JOB_UNION_REP "Union Representative"
+#define JOB_UNIP_ROLES_LIST   list(JOB_UNION_LEADER, JOB_UNION_REP)
 
 #define JOB_MILITIA_CMDR "Militia Commander"
 #define JOB_MILITIA_CPT "Militia Captain"
 #define JOB_MILITIA_LT "Miliita Lieutenant"
 #define JOB_MILITIA_SGT "Militia Sergeant"
 #define JOB_MILITIA_PO "Militia Police Officer"
+#define JOB_SPP_ROLES_LIST   list(JOB_MILITIA_CMDR, JOB_MILITIA_CPT, JOB_MILITIA_LT, JOB_MILITIA_SGT, JOB_MILITIA_PO)
 
 #define JOB_GUARD_CMDR "Guard Commander"
 #define JOB_GUARD_TL "Guard Team Leader"
 #define JOB_GUARD_MBR "Guard Member"
+#define JOB_SPP_ROLES_LIST   list(JOB_GUARD_CMDR, JOB_GUARD_TL, JOB_GUARD_MBR)
 
 #define JOB_SPACEPORT_SUP "Spaceport Supervisor"
 #define JOB_SPACEPORT_MNG "Spaceport Manager"
 #define JOB_SPACEPORT_QM "Spaceport Quartermaster"
 #define JOB_SPACEPORT_TCH "Spaceport Technician"
+#define JOB_SPP_ROLES_LIST   list(JOB_SPACEPORT_SUP, JOB_SPACEPORT_MNG, JOB_SPACEPORT_QM, JOB_SPACEPORT_TCH)
 
 #define JOB_MEDICAL_DIR "Hospital Director"
 #define JOB_MEDICAL_SPC "Medical Specialist"
 #define JOB_MEDICAL_RES "Medical Resident"
 #define JOB_MEDICAL_INT "Medical Intern"
+#define JOB_MEDP_ROLES_LIST   list(JOB_MEDICAL_DIR, JOB_MEDICAL_SPC, JOB_MEDICAL_RES, JOB_MEDICAL_INT)
 
 #define JOB_INDUSTRY_OVR "Industrial Overseer"
 #define JOB_INDUSTRY_OFC "Industrial Officer"
 #define JOB_INDUSTRY_SNG "Industrial Senior Engineer"
 #define JOB_INDUSTRY_ENG "Industrial Engineer"
+
+#define JOB_INDP_ROLES_LIST   list(JOB_INDUSTRY_OVR, JOB_INDUSTRY_OFC, JOB_INDUSTRY_SNG, JOB_INDUSTRY_ENG)
 
 //-------- DUTCH'S DOZEN --------//
 #define JOB_DUTCH_ARNOLD "Dutch's Dozen - Dutch"

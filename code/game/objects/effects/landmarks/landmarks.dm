@@ -720,3 +720,126 @@
 /obj/effect/landmark/tutorial_bottom_left
 	name = "tutorial bottom left"
 	icon_state = "new_player"
+
+
+//-------- HYBRISA PROTESTOR COMMAND --------//
+/obj/effect/landmark/start/protest/unionleader
+	name = JOB_UNION_LEADER
+	icon_state = "unled_spawn"
+	job = /datum/job/civilian/liaison
+	job_list = JOB_UNIP_ROLES_LIST
+
+/obj/effect/landmark/start/protest/unionrep
+	name = JOB_UNION_REP
+	icon_state = "unrep_spawn"
+	job = /datum/job/civilian/liaison
+
+//-------- HYBRISA PROTESTOR MILITIA --------//
+
+/obj/effect/landmark/start/protest/milcmdr
+	name = JOB_MILITIA_CMDR
+	icon_state = "milcmdr_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/milcapt
+	name = JOB_MILITIA_CPT
+	icon_state = "milcapt_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/millt
+	name = JOB_MILITIA_LT
+	icon_state = "millt_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/milsgt
+	name = JOB_MILITIA_SGT
+	icon_state = "milsgt_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/milpo
+	name = JOB_MILITIA_PO
+	icon_state = "milpo_spawn"
+	job = /datum/job/civilian/liaison
+
+//-------- HYBRISA PROTESTOR GUARD --------//
+
+/obj/effect/landmark/start/protest/guardcmdr
+	name = JOB_GUARD_CMDR
+	icon_state = "guardcmdr_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/guardtl
+	name = JOB_GUARD_TL
+	icon_state = "guardtl_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/guardmbr
+	name = JOB_GUARD_MBR
+	icon_state = "guardmbr_spawn"
+	job = /datum/job/civilian/liaison
+
+//-------- HYBRISA SPACEPORT --------//
+
+/obj/effect/landmark/start/protest/spsup
+	name = JOB_SPACEPORT_SUP
+	icon_state = "spsup_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/spmng
+	name = JOB_SPACEPORT_MNG
+	icon_state = "spmng_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/spqm
+	name = JOB_SPACEPORT_QM
+	icon_state = "spqm_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/sptch
+	name = JOB_SPACEPORT_TCH
+	icon_state = "sptch_spawn"
+	job = /datum/job/civilian/liaison
+
+//-------- HYBRISA MEDICAL --------//
+
+/obj/effect/landmark/start/protest/meddir
+	name = JOB_MEDICAL_DIR
+	icon_state = "meddir_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/medspc
+	name = JOB_MEDICAL_SPC
+	icon_state = "medspc_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/medres
+	name = JOB_MEDICAL_RES
+	icon_state = "medres_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/medint
+	name = JOB_MEDICAL_INT
+	icon_state = "medint_spawn"
+	job = /datum/job/civilian/liaison
+
+//-------- HYBRISA INDUSTRY --------//
+
+/obj/effect/landmark/start/protest/indovr
+	name = JOB_INDUSTRY_OVR
+	icon_state = "indovr_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/indofc
+	name = JOB_INDUSTRY_OFC
+	icon_state = "indofc_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/indsng
+	name = JOB_INDUSTRY_SNG
+	icon_state = "indsng_spawn"
+	job = /datum/job/civilian/liaison
+
+/obj/effect/landmark/start/protest/indeng
+	name = JOB_INDUSTRY_ENG
+	icon_state = "indeng_spawn"
+	job = /datum/job/civilian/liaison
